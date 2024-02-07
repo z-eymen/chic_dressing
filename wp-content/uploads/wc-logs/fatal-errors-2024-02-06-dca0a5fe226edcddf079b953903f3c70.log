@@ -1,0 +1,62 @@
+2024-02-06T08:46:59+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\facebook-for-woocommerce\vendor\skyverge\wc-plugin-framework\woocommerce\Handlers\Script_Handler.php à la ligne 30
+
+2024-02-06T22:28:31+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\MAMP\htdocs\chic_dressing\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\MAMP\htdocs\chic_dressing\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\MAMP\htdocs\chic_dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\MAMP\htdocs\chic_dressing\wp-settings.php(643): do_action('init')
+#10 C:\MAMP\htdocs\chic_dressing\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\chic_dressing\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\chic_dressing\wp-cron.php(46): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2024-02-06T22:28:31+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\MAMP\htdocs\chic_dressing\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\MAMP\htdocs\chic_dressing\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\MAMP\htdocs\chic_dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\MAMP\htdocs\chic_dressing\wp-settings.php(643): do_action('init')
+#10 C:\MAMP\htdocs\chic_dressing\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\chic_dressing\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\chic_dressing\wp-cron.php(46): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2024-02-06T22:45:39+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\contact-form-7\modules\date.php à la ligne 9
+
+2024-02-06T22:45:51+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\woocommerce\includes\class-wc-order-refund.php à la ligne 245
+
+2024-02-06T22:45:52+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\themes\ashe\functions.php à la ligne 80
+
+2024-02-06T22:46:06+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\elementor\includes\managers\image.php à la ligne 7
+
+2024-02-06T23:46:21+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\views\front\widget_nl.php:125
+Stack trace:
+#0 C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\widgets\wysija_nl.php(285): WYSIJA_view_front_widget_nl->display('<div class="wid...', Array, false, false)
+#1 C:\MAMP\htdocs\chic_dressing\wp-includes\class-wp-widget.php(394): WYSIJA_NL_Widget->widget(Array, Array)
+#2 C:\MAMP\htdocs\chic_dressing\wp-includes\widgets.php(837): WP_Widget->display_callback(Array, Array)
+#3 C:\MAMP\htdocs\chic_dressing\wp-content\themes\ashe\templates\sidebars\sidebar-right.php(24): dynamic_sidebar('sidebar-right')
+#4 C:\MAMP\htdocs\chic_dressing\wp-includes\template.php(792): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\chic_dressing\wp-includes\template.php(725): load_template('C:\\MAMP\\htdocs\\...', false, Array)
+#6 C:\MAMP\htdocs\chic_dressing\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\MAMP\htdocs\chic_dressing\wp-content\themes\chicdressing\index.php(57): get_template_part('templates/sideb...', 'right')
+#8 C:\MAMP\htdocs\chic_dressing\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#9 C:\MAMP\htdocs\chic_dressing\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#10 C:\MAMP\htdocs\chic_dressing\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#11 {main}
+  thrown dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\wysija-newsletters\views\front\widget_nl.php à la ligne 125
+

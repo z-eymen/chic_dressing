@@ -1,0 +1,8 @@
+2024-02-07T11:42:59+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\elementor\core\files\file-types\base.php à la ligne 8
+
+2024-02-07T11:43:06+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-includes\functions.php à la ligne 4593
+
+2024-02-07T11:43:18+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\MiniCart.php à la ligne 697
+
+2024-02-07T11:43:22+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic_dressing\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\CartCrossSellsBlock.php à la ligne 15
+
